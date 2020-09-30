@@ -9,6 +9,7 @@
 
 body {
   background:black;
+  font-family:'Raleway', sans-serif;
 }
  
  header {
@@ -31,7 +32,6 @@ nav ul {
   gap:3em;
   margin-left:20%;
   align-items:center;
-  justify-content:center;
   font-size:1.25vw;
   font-weight:700;
   text-transform:uppercase;
