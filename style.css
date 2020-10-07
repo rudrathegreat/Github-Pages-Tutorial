@@ -50,3 +50,12 @@ nav a:hover {
   color:#ef4d8c;
   transition: color 0.2s ease-in-out;
 }
+
+.hero {
+  width:100%;
+  height:100vh;
+  color:white;
+  background:black;
+  display:flex;
+  flex-direction:column;
+}
