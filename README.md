@@ -1,4 +1,108 @@
 # Github Pages Tutorial
 ## Overview
+This is tutorial on setting up a website using Github Pages.
 
-I like dogs
+## In Depth
+### HTML
+
+This is the HTML for the website -
+
+```HTML
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <title>Education Model Template</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a>Home</a></li>
+          <li><a>About</a></li>
+          <li><a>Blog</a></li>
+          <li><a>Contacts</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="hero">
+      <h1>Title</h1>
+      <h2>Subtitle</h2>
+    </div>
+    <div class="text-only">
+      <h1>Heading</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem sed risus ultricies tristique nulla aliquet. Maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum. Porta nibh venenatis cras sed felis eget velit. Imperdiet proin fermentum leo vel orci porta non. Tincidunt tortor aliquam nulla facilisi cras fermentum. Hendrerit gravida rutrum quisque non tellus orci. Nec nam aliquam sem et tortor. Bibendum arcu vitae elementum curabitur vitae nunc sed. A iaculis at erat pellentesque. Pretium aenean pharetra magna ac placerat vestibulum lectus mauris ultrices. Quam vulputate dignissim suspendisse in est ante. Sit amet facilisis magna etiam tempor orci eu lobortis elementum. Porttitor massa id neque aliquam vestibulum morbi.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem sed risus ultricies tristique nulla aliquet. Maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum. Porta nibh venenatis cras sed felis eget velit. Imperdiet proin fermentum leo vel orci porta non. Tincidunt tortor aliquam nulla facilisi cras fermentum. Hendrerit gravida rutrum quisque non tellus orci. Nec nam aliquam sem et tortor. Bibendum arcu vitae elementum curabitur vitae nunc sed. A iaculis at erat pellentesque. Pretium aenean pharetra magna ac placerat vestibulum lectus mauris ultrices. Quam vulputate dignissim suspendisse in est ante. Sit amet facilisis magna etiam tempor orci eu lobortis elementum. Porttitor massa id neque aliquam vestibulum morbi.
+      </p>
+    </div>
+    <div class="grid-container">
+      <div class="grid">
+        <div class="grid-cells">
+          <h1 class="grid-cell-title">Local Food Production</h1>
+          <p class="description">Come and learn how to produce vegetables, fruits and nuts at home. This course will also show you how to reduce and compost all your food waste</p>
+        </div>
+        <div class="grid-cells">
+          <h1 class="grid-cell-title">Local Food Production</h1>
+          <p class="description">Come and learn how to produce vegetables, fruits and nuts at home. This course will also show you how to reduce and compost all your food waste</p>
+        </div>
+        <div class="grid-cells">
+          <h1 class="grid-cell-title">Local Food Production</h1>
+          <p class="description">Come and learn how to produce vegetables, fruits and nuts at home. This course will also show you how to reduce and compost all your food waste</p>
+        </div>
+        <div class="grid-cells">
+          <h1 class="grid-cell-title">Local Food Production</h1>
+          <p class="description">Come and learn how to produce vegetables, fruits and nuts at home. This course will also show you how to reduce and compost all your food waste</p>
+        </div>
+        <div class="grid-cells">
+          <h1 class="grid-cell-title">Local Food Production</h1>
+          <p class="description">Come and learn how to produce vegetables, fruits and nuts at home. This course will also show you how to reduce and compost all your food waste</p>
+        </div>
+        <div class="grid-cells">
+          <h1 class="grid-cell-title">Local Food Production</h1>
+          <p class="description">Come and learn how to produce vegetables, fruits and nuts at home. This course will also show you how to reduce and compost all your food waste</p>
+        </div>
+      </div>
+    </div>
+  <div class="text-and-image">
+      <div class="grid">
+          <div class="grid-cell">
+              <h1 class="grid-cell-title">Take your bottles to That's Amore Cheese.</h1>
+              <p>You can use any glass bottle. Just make sure it is clean and has a wide opening.</p>
+              <p>The address for That's Amore Cheese is: 66 Latitude Blvd, Thomastown VIC 3074</p>
+          </div>
+          <div class="grid-cell">
+            <img src="https://cdn.pixabay.com/photo/2017/07/05/15/41/milk-2474993__340.jpg">
+          </div>
+      </div>
+  </div>
+    <div class="text-and-image">
+      <div class="grid">
+          <div class="grid-cell">
+              <h1 class="grid-cell-title">Take your bottles to That's Amore Cheese.</h1>
+              <p>You can use any glass bottle. Just make sure it is clean and has a wide opening.</p>
+              <p>The address for That's Amore Cheese is: 66 Latitude Blvd, Thomastown VIC 3074</p>
+          </div>
+          <div class="grid-cell">
+            <img src="https://cdn.pixabay.com/photo/2017/07/05/15/41/milk-2474993__340.jpg">
+          </div>
+      </div>
+  </div>
+    <div class="footer">
+        <p>Copyright &copy; 2020. Makers Club. All Rights Reserved.</p>
+    </div>
+  </body>
+</html>
+```
+
+## Result
+
+![Image of milk](https://cdn.pixabay.com/photo/2017/07/05/15/41/milk-2474993__340.jpg)
